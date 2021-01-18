@@ -1,0 +1,14 @@
+﻿@model TAAS.Domain.MensagemDia
+<form method="post" action="/MensagensDia/@ViewData["Action"]">
+    @Html.AntiForgeryToken()
+    <input type="hidden" name="Id" id="Id" class="form-control" value="@Html.DisplayFor(model => model.Id)" />
+    <div class="form-group">
+        <label for="mensagem">@Html.DisplayNameFor(model => model.Texto)</label>
+        <input type="text" name="texto" id="texto" class="form-control" value="@Html.DisplayFor(model => model.Texto)" />
+        <div class="help-block with-errors">@Html.ValidationMessageFor(model => model.Texto)</div>
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Salvar" class="btn btn-success" />
+        <a asp-action="Index" class="btn btn-secondary">Voltar</a>
+    </div>
+</form>

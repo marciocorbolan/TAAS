@@ -1,0 +1,127 @@
+{
+  "version": "1.0",
+  "defaultProvider": "cdnjs",
+  "libraries": [
+    {
+      "library": "jquery@3.4.1",
+      "destination": "wwwroot/lib/jquery/",
+      "files": [
+        "core.js",
+        "jquery.js",
+        "jquery.min.js",
+        "jquery.min.map"
+      ]
+    },
+    {
+      "library": "jqueryui@1.11.4",
+      "destination": "wwwroot/lib/jqueryui/"
+    },
+    {
+      "library": "jquery-validate@1.19.2",
+      "destination": "wwwroot/lib/jquery-validate/",
+      "files": [
+        "jquery.validate.min.js",
+        "additional-methods.min.js",
+        "localization/messages_pt_BR.min.js",
+        "localization/messages_pt_BR.js"
+      ]
+    },
+    {
+      "library": "jquery-validation-unobtrusive@3.2.11",
+      "destination": "wwwroot/lib/jquery-validation-unobtrusive/",
+      "files": [
+        "jquery.validate.unobtrusive.min.js"
+      ]
+    },
+    {
+      "library": "font-awesome@5.15.2",
+      "destination": "wwwroot/lib/font-awesome/",
+      "files": [
+        "webfonts/fa-brands-400.eot",
+        "webfonts/fa-brands-400.svg",
+        "webfonts/fa-brands-400.ttf",
+        "webfonts/fa-brands-400.woff",
+        "webfonts/fa-brands-400.woff2",
+        "webfonts/fa-regular-400.eot",
+        "webfonts/fa-regular-400.svg",
+        "webfonts/fa-regular-400.ttf",
+        "webfonts/fa-regular-400.woff",
+        "webfonts/fa-regular-400.woff2",
+        "webfonts/fa-solid-900.eot",
+        "webfonts/fa-solid-900.svg",
+        "webfonts/fa-solid-900.ttf",
+        "webfonts/fa-solid-900.woff",
+        "webfonts/fa-solid-900.woff2",
+        "js/all.js",
+        "js/all.min.js",
+        "js/brands.js",
+        "js/brands.min.js",
+        "js/conflict-detection.js",
+        "js/conflict-detection.min.js",
+        "js/fontawesome.js",
+        "js/fontawesome.min.js",
+        "js/regular.js",
+        "js/regular.min.js",
+        "js/solid.js",
+        "js/solid.min.js",
+        "js/v4-shims.js",
+        "js/v4-shims.min.js",
+        "css/all.css",
+        "css/all.min.css",
+        "css/brands.css",
+        "css/brands.min.css",
+        "css/fontawesome.css",
+        "css/fontawesome.min.css",
+        "css/regular.css",
+        "css/regular.min.css",
+        "css/solid.css",
+        "css/solid.min.css",
+        "css/svg-with-js.css",
+        "css/svg-with-js.min.css",
+        "css/v4-shims.css",
+        "css/v4-shims.min.css"
+      ]
+    },
+    {
+      "library": "ionicons@2.0.1",
+      "destination": "wwwroot/lib/ionicons/",
+      "files": [
+        "css/ionicons.css",
+        "css/ionicons.min.css",
+        "fonts/ionicons.eot",
+        "fonts/ionicons.svg",
+        "fonts/ionicons.ttf",
+        "fonts/ionicons.woff"
+      ]
+    },
+    {
+      "library": "twitter-bootstrap@4.5.3",
+      "destination": "wwwroot/lib/twitter-bootstrap/"
+    },
+    {
+      "library": "admin-lte@3.0.5",
+      "destination": "wwwroot/lib/admin-lte/",
+      "files": [
+        "js/adminlte.js",
+        "js/adminlte.js.map",
+        "js/adminlte.min.js",
+        "js/adminlte.min.js.map",
+        "css/adminlte.css",
+        "css/adminlte.css.map",
+        "css/adminlte.min.css",
+        "css/adminlte.min.css.map",
+        "css/alt/adminlte.components.min.css",
+        "css/alt/adminlte.core.min.css",
+        "css/alt/adminlte.extra-components.min.css",
+        "css/alt/adminlte.pages.min.css",
+        "css/adminlte.css",
+        "css/alt/adminlte.plugins.min.css",
+        "css/alt/adminlte.plugins.css",
+        "css/alt/adminlte.pages.css",
+        "css/alt/adminlte.components.css",
+        "css/alt/adminlte.core.css",
+        "css/alt/adminlte.extra-components.css"
+      ]
+    }
+  ]
+}

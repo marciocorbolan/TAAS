@@ -1,0 +1,71 @@
+﻿@{
+    ViewData["Title"] = "Tarefa";
+}
+
+<!-- Content Header (Page header) -->
+<section class="content-header">
+    <div class="container-fluid">
+        <div class="row mb-2">
+            <div class="col-sm-6">
+                <h1>@ViewData["Title"]</h1>
+            </div>
+            <div class="col-sm-6">
+                <ol class="breadcrumb float-sm-right">
+                    <li class="breadcrumb-item active">@ViewData["Title"]</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+    <!-- /.container-fluid -->
+</section>
+<!-- /.content -->
+
+<!-- Main content -->
+<section class="content">
+
+    <!-- Info box -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <div class="callout callout-info">
+                    <h5><i class="fas fa-info"></i> Notas:</h5>
+                    <ul>
+                        <li>Esta página foi aprimorada para impressão. Clique no botão imprimir na parte inferior para visualizar.</li>
+                        <li>Para o gerador de pdf funcionar é preciso acessar a pasta de sua dependencia (.nuget\packages\syncfusion.htmltopdfconverter.qtwebkit.net.core\18.4.0.30\lib) e copiar a aplicação para raiz do sistema.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /.Info box -->
+
+    <!-- Default box -->
+    <div class="card">
+        <div class="card-header">
+            <h3 class="card-title">Teste de aptidão para Analista De Sistemas</h3>
+
+            <div class="card-tools">
+                <button type="button" class="btn btn-tool" data-card-widget="collapse" data-toggle="tooltip" title="Collapse">
+                    <i class="fas fa-minus"></i>
+                </button>
+            </div>
+        </div>
+        <div class="card-body">
+            @await Html.PartialAsync("Tarefa")
+        </div>
+        <!-- /.card-body -->
+        <div class="card-footer">
+            <!-- this row will not appear when printing -->
+            <div class="row no-print">
+                <div class="col-12">
+                    <a asp-area="" asp-controller="Home" asp-action="TarefaImprimir" target="_blank" class="btn btn-default"><i class="fas fa-print"></i> Imprimir</a>
+                    <a asp-area="" asp-controller="Home" asp-action="TarefaPdf" target="_blank" class="btn btn-primary float-right" style="margin-right: 5px;"><i class="fas fa-download"></i> Gerar PDF</a>
+                </div>
+            </div>
+        </div>
+        <!-- /.card-footer-->
+    </div>
+    <!-- /.card -->
+
+</section>
+<!-- /.content -->

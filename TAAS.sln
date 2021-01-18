@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TAAS.Domain", "TAAS.Domain\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TAAS.Repository", "TAAS.Repository\TAAS.Repository.csproj", "{94794751-FB90-4A26-ACF6-54E3F7A3D5C4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp", "WebApp\WebApp.csproj", "{8A67CAF3-72E1-4221-82DC-91224C16B547}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{94794751-FB90-4A26-ACF6-54E3F7A3D5C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94794751-FB90-4A26-ACF6-54E3F7A3D5C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{94794751-FB90-4A26-ACF6-54E3F7A3D5C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A67CAF3-72E1-4221-82DC-91224C16B547}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A67CAF3-72E1-4221-82DC-91224C16B547}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A67CAF3-72E1-4221-82DC-91224C16B547}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A67CAF3-72E1-4221-82DC-91224C16B547}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

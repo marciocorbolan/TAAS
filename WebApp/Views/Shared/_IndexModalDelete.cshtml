@@ -1,0 +1,31 @@
+﻿<!-- modal -->
+<div class="modal fade" id="modalDelete">
+    <!-- modal-dialog -->
+    <div class="modal-dialog">
+        <!-- modal-content -->
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="modalDeleteLabel">Deletar</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+
+            <div class="modal-body" id="modalDeleteText">
+                <p>Você está prestes a excluir um registro, este procedimento é irreversível.</p>
+                <p><strong>Deseja continuar?</strong></p>
+            </div>
+
+            <div class="modal-footer">
+                <form id="modalDeleteForm" method="post" action="">
+                    @Html.AntiForgeryToken()
+                    <button type="button" class="btn btn-default" id="modalDeleteButtonCancel" data-dismiss="modal">Cancelar</button>
+                    <button type="submit" class="btn btn-danger" id="modalDeleteButtonConfirm">Deletar</button>
+                </form>
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+<!-- /.modal -->
